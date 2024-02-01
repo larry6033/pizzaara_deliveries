@@ -1,0 +1,26 @@
+.list ul {
+  list-style-type: none;
+  display:flex;
+  padding: 0 1em;
+  gap: 2em;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+.list-home {
+  background-color: #eea539;
+}
+.nav-cart {
+  padding-right: 2em;
+}
+.nav-bar {
+  background-color: #f4f7fb;
+  height: 6vh;
+}
+
+@media screen and (max-width: 800px) {
+  #list ul li {
+display: none;
+  }
+}
