@@ -2,7 +2,10 @@
 .container{
     margin:2em;
 }
-
+.nav-bar {
+    background-color: #f4f7fb;
+    height: 8vh;
+  }
 
   .list ul {
   list-style-type: none;
@@ -11,24 +14,24 @@
   gap: 2em;
 }
 
+
 .list ul li:hover {
   background-color: #eea539;
   padding: 1em;
 }
+
 
 .flex-container {
   display: flex;
   justify-content: space-around;
 }
 
+
 .nav-cart {
   padding-right: 2em;
 }
 
-.nav-bar {
-  background-color: #f4f7fb;
-  height: 6vh;
-}
+
 
 @media screen and (max-width: 414px) {
   .list ul li {

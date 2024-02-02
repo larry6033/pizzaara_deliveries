@@ -1,19 +1,29 @@
 /*hero*/
+
+.hero-h1{
+    color:#eea539;
+}
+
 .nav-hero {
-    border: 1px light black;
-    padding: 5px;
+    border: 1px solid black;
+    display:-inline-flex;
   }
+
+
   .input {
     padding: 6px;
   }
+
+
   .hero-btn{
       background-color: black;
       color:white;
-      padding:10px 15px;
+      padding:1px 1px;
   }
+
   .hero{
     display:flex;
     justify-content:space-evenly;
-    position:50%;
+    position:40%;
     
   }
