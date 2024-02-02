@@ -1,0 +1,19 @@
+/*hero*/
+.nav-hero {
+    border: 1px light black;
+    padding: 5px;
+  }
+  .input {
+    padding: 6px;
+  }
+  .hero-btn{
+      background-color: black;
+      color:white;
+      padding:10px 15px;
+  }
+  .hero{
+    display:flex;
+    justify-content:space-evenly;
+    position:50%;
+    
+  }

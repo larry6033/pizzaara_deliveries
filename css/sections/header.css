@@ -1,4 +1,4 @@
-
+/*header*/
 .container{
     margin:2em;
 }
@@ -35,10 +35,4 @@
     display: none;
   }
 }
-.nav-hero {
-  border: 1px solid black;
-  padding: 5px;
-}
-.input {
-  padding: 6px;
-}
+
