@@ -1,15 +1,19 @@
-.list ul{
+
+.container{
+    margin:2em;
+}
+
+
+  .list ul {
   list-style-type: none;
   display: flex;
   padding: 0 1em;
   gap: 2em;
-  
-
 }
 
-.list ul li:hover{
-    background-color:#EEA539;
-    padding:1em;
+.list ul li:hover {
+  background-color: #eea539;
+  padding: 1em;
 }
 
 .flex-container {
@@ -26,11 +30,15 @@
   height: 6vh;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 414px) {
   .list ul li {
     display: none;
   }
 }
-.nav-hero{
-    border:5px solid black;
+.nav-hero {
+  border: 1px solid black;
+  padding: 5px;
+}
+.input {
+  padding: 6px;
 }
