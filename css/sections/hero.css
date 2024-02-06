@@ -43,6 +43,7 @@
     display:inline-flex;
     margin-top: 5em;
     box-shadow: 20px;
+    margin-left: 15em;
    
   }
 
@@ -53,18 +54,21 @@
 
   .parent-container{
 display:flex;
-justify-content:space-evenly;
 margin-top:2em;
+gap: 3em;
   }
 
   .child-container{
 background-color: #f4f7fb;
 text-align:center;
+padding: 3em 3em;
   }
 
 .heropart{
   display:flex;
   justify-content: space-around;
+
+  
 }
 
   .hero__fresh{
