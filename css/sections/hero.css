@@ -4,7 +4,9 @@
   padding:0;
 }
 
-.hero h1{
+.hero-content{
+  width:48%;
+  
   
 }
 .hero-h1{
@@ -40,13 +42,37 @@
   .hero{
     display:inline-flex;
     margin-top: 5em;
-    position:25%;
     box-shadow: 20px;
-    justify-content:space-evenly;
+   
   }
 
-  .hero__fresh{
-    width:25%;
+  .hero-image{
+    background-color: black;
+    border-radius: 50px;
   }
+
+  .parent-container{
+display:flex;
+justify-content:space-evenly;
+margin-top:2em;
+  }
+
+  .child-container{
+background-color: #f4f7fb;
+text-align:center;
+  }
+
+.heropart{
+  display:flex;
+  justify-content: space-around;
+}
+
+  .hero__fresh{
+    width:30%;
+    
+  }
+
+
+
 
 
