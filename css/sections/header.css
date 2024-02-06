@@ -1,6 +1,7 @@
 /*header*/
 .container{
-    margin:2em;
+    margin:0;
+    padding:0;
 }
 .nav-bar {
     background-color: #f4f7fb;
@@ -24,6 +25,7 @@
 .flex-container {
   display: flex;
   justify-content: space-around;
+  padding-top:1.5em;
 }
 
 

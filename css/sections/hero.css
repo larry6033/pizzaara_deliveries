@@ -4,7 +4,7 @@
   padding:0;
 }
 
-.hero{
+.hero h1{
   
 }
 .hero-h1{
@@ -40,9 +40,13 @@
   .hero{
     display:inline-flex;
     margin-top: 5em;
-    position:40%;
+    position:25%;
     box-shadow: 20px;
-    
+    justify-content:space-evenly;
+  }
+
+  .hero__fresh{
+    width:25%;
   }
 
 
