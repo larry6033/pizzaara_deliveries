@@ -1,0 +1,19 @@
+/* --main-- */
+
+
+
+.main-menu li{
+  margin-top: 5em;
+  display:inline-flex;
+  padding: 0 1em;
+  gap:2em ;
+  
+}
+
+ul li:hover{
+  color:#eea539;
+  border-bottom:2px solid #eea539;
+}
+.list{
+  border-bottom:1px solid gray;
+}
