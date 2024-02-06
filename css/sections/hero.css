@@ -1,29 +1,48 @@
 /*hero*/
+*{
+  margin:0;
+  padding:0;
+}
 
+.hero{
+  
+}
 .hero-h1{
     color:#eea539;
 }
 
 .nav-hero {
-    border: 1px solid black;
-    display:-inline-flex;
+  display:inline-flex;
+    border: none;
+    box-shadow: 0 0 3px gray;
   }
 
+.fa-solid{
+  padding-top: 1em;
+  padding-left:0.5em;
+}
 
   .input {
-    padding: 6px;
+    padding: 7px;
+    border:lightgray
+
   }
 
 
   .hero-btn{
       background-color: black;
       color:white;
-      padding:1px 1px;
+      padding:1em;
+      border-color:black;
+      border-radius:5px;
   }
 
   .hero{
-    display:flex;
-    justify-content:space-evenly;
+    display:inline-flex;
+    margin-top: 5em;
     position:40%;
+    box-shadow: 20px;
     
   }
+
+
