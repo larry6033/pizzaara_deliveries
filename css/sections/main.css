@@ -22,3 +22,47 @@ ul li:hover{
 .lists{
   border-bottom:1px solid gray;
 }
+
+
+.black-button{
+  display:flex;
+  justify-content:center;
+  background-color: black;
+  color:white;
+  padding:2em 10em;
+  border:none;
+  margin-top: -20px;
+  margin-left: 6em;
+ 
+}
+
+
+.main--container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.main-content{
+padding:150px;
+margin-top: -120px;
+background-color: #f4f7fb;
+
+
+}
+ 
+.image{
+  display:flex;
+  justify-content:space-evenly;
+}
+.btn--main{
+  color:white;
+background-color:#eea539;
+padding:2em  10em;
+margin:0 45%;
+margin-top:10em;
+border-radius: 5px;
+border:none;
+}
+
+/* main1 */
