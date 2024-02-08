@@ -71,9 +71,35 @@ padding: 3em 3em;
   
 }
 
+.sub-hero{
+  display:flex;
+  justify-content: space-between;
+  margin:5em 0;
+  background-color: white;
+}
+
   .hero__fresh{
     width:30%;
     
+  }
+
+  .hero__main{
+  margin:0 5em;
+
+    
+  }
+
+  .main__hero{
+    display:inline-flex;
+    background-color: #f4f7fb;
+    margin-top:5em;
+  }
+  .hero_medium{
+    margin-left: 5em;
+  }
+
+  .top-content{
+    background-color: white;
   }
 
  

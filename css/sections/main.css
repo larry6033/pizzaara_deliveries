@@ -91,18 +91,42 @@ ul li:hover {
 .hero-end{
   display:flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
+  justify-content: space-around;
+  /* text-align: center; */
+  /* align-content: center; */
   padding:1em 0;
 }
 .hero-bottom{
-  display:inline-flex;
-  flex-direction: column;
+  display:flex;
+  /* flex-direction:column; */
   justify-content: space-around;
   padding: 2em;
-  align-content:center;
-  align-items: center;
+  /* align-content:center; */
+  /* align-items: center; */
+  /* background-color: #f4f7fb; */
+}
+.hero__end{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+}
+.hero__end h2{
+margin:2em 0;
+}
+
+.hero-bottom2{
   background-color: #f4f7fb;
-  position:30%;
+  padding:6em;
+}
+.hero-bottom_1{
+  background-color: #f4f7fb;
+  padding:0 4em ;
+
+}
+ 
+.hero-bottom_3{
+  background-color: #f4f7fb;
+  padding:6em;
 }
