@@ -37,4 +37,5 @@ ul h2{
     box-sizing:border-box;
     background-color:black;
     border-radius: 0.5em;
+    cursor: pointer;
 }
