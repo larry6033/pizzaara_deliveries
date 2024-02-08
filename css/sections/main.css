@@ -101,8 +101,8 @@ ul li:hover {
   /* flex-direction:column; */
   justify-content: space-around;
   padding: 2em;
-  /* align-content:center; */
-  /* align-items: center; */
+  align-content:center;
+  align-items: center;
   /* background-color: #f4f7fb; */
 }
 .hero__end{
@@ -118,24 +118,26 @@ margin:2em 0;
 
 .hero-bottom2{
   background-color: #f4f7fb;
-  padding:4em;
-  display:inline-flex;
+  padding:5.5em 5em;
+  /* display:inline-flex; */
 }
 .hero-bottom_1{
   background-color: #f4f7fb;
-  padding:0 4em ;
-  display:inline-flex;
+  padding:5em ;
+  /* display:inline-flex; */
 }
  
 .hero-bottom_3{
   background-color: #f4f7fb;
-  padding:6em;
-  display:inline-flex;
+  padding:5em 6em;
+  /* display:inline-flex; */
   align-content: center;
 }
 
 .hero-images {
   background-color: #f4f7fb;
   border-radius: 50px;
+  display:inline-flex;
+  justify-content: center;
 }
 
