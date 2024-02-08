@@ -7,11 +7,34 @@
     padding:2em 0;
 }
 
- ul li{
+ footer ul li{
     color:white;
     list-style-type: none;
 }
 
 ul h2{
     color:white;
+}
+
+.footer_btn{
+    background-color:#eea539;
+    border:none;
+    padding:1.55em;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+
+}
+
+.footer-input{
+    padding:1.5em;
+    margin-right: -0.5em;
+    border-bottom-left-radius: 0.5em;
+    border-top-left-radius: 0.5em;
+}
+
+.input-btn{
+    border:none;
+    box-sizing:border-box;
+    background-color:black;
+    border-radius: 0.5em;
 }
