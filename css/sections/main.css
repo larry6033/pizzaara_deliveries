@@ -112,8 +112,15 @@ ul li:hover {
   text-align: center;
   
 }
+
 .hero__end h2{
-margin:2em 0;
+margin:3em 0;
+
+}
+
+.hero-end{
+  text-align: center;
+
 }
 
 .hero-bottom2{
