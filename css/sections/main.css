@@ -118,15 +118,24 @@ margin:2em 0;
 
 .hero-bottom2{
   background-color: #f4f7fb;
-  padding:6em;
+  padding:4em;
+  display:inline-flex;
 }
 .hero-bottom_1{
   background-color: #f4f7fb;
   padding:0 4em ;
-
+  display:inline-flex;
 }
  
 .hero-bottom_3{
   background-color: #f4f7fb;
   padding:6em;
+  display:inline-flex;
+  align-content: center;
 }
+
+.hero-images {
+  background-color: #f4f7fb;
+  border-radius: 50px;
+}
+

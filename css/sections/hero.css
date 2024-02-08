@@ -1,111 +1,103 @@
 /*hero*/
-*{
-  margin:0;
-  padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.hero-content{
-  width:48%;
-  
-  
+.hero-content {
+  width: 48%;
 }
-.hero-h1{
-    color:#eea539;
+
+.hero-content h1 {
+  font-size: 60px;
+}
+.hero-h1 {
+  color: #eea539;
+  font-size: 60px;
 }
 
 .nav-hero {
-  display:inline-flex;
-    border: none;
-    box-shadow: 0 0 3px gray;
-  }
+  display: inline-flex;
+  border: none;
+  box-shadow: 0 0 3px gray;
+}
 
-.fa-solid{
+.fa-solid {
   padding-top: 1em;
-  padding-left:0.5em;
+  padding-left: 0.5em;
 }
 
-  .input {
-    padding: 7px;
-    border:lightgray
+.input {
+  padding: 7px;
+  border: lightgray;
+}
 
-  }
+.hero-btn {
+  background-color: black;
+  color: white;
+  padding: 1em;
+  border-color: black;
+  border-radius: 5px;
+}
 
+.hero {
+  display: inline-flex;
+  margin-top: 5em;
+  box-shadow: 20px;
+  margin-left: 15em;
+}
 
-  .hero-btn{
-      background-color: black;
-      color:white;
-      padding:1em;
-      border-color:black;
-      border-radius:5px;
-  }
+.hero-image {
+  background-color: black;
+  border-radius: 50px;
+}
 
-  .hero{
-    display:inline-flex;
-    margin-top: 5em;
-    box-shadow: 20px;
-    margin-left: 15em;
-   
-  }
+.parent-container {
+  display: flex;
+  margin-top: 2em;
+  gap: 3em;
+}
 
-  .hero-image{
-    background-color: black;
-    border-radius: 50px;
-  }
+.child-container {
+  background-color: #f4f7fb;
+  text-align: center;
+  padding: 3em 3em;
+}
 
-  .parent-container{
-display:flex;
-margin-top:2em;
-gap: 3em;
-  }
-
-  .child-container{
-background-color: #f4f7fb;
-text-align:center;
-padding: 3em 3em;
-  }
-
-.heropart{
-  display:flex;
+.heropart {
+  display: flex;
   justify-content: space-around;
-
-  
 }
 
-.sub-hero{
-  display:flex;
+.sub-hero {
+  display: flex;
   justify-content: space-between;
-  margin:5em 0;
+  margin: 10em 0;
   background-color: white;
 }
 
-  .hero__fresh{
-    width:30%;
-    
-  }
+.hero__fresh {
+  width: 30%;
+}
 
-  .hero__main{
-  margin:0 5em;
-
-    
-  }
-
-  .main__hero{
-    display:inline-flex;
-    background-color: #f4f7fb;
-    margin-top:5em;
-  }
-  .hero_medium{
-    margin-left: 5em;
-  }
-
-  .top-content{
-    background-color: white;
-  }
-
- 
+.hero__main {
+  margin: 0 5em;
+}
 
 
+.main__hero {
+  display: inline-flex;
+  /* background-color: #f4f7fb; */
+  margin-top: 5em;
+}
+.hero_medium {
+  margin-left: 5em;
+}
 
+.top-content {
+  background-color: white;
+}
 
-
-
+.right-hero {
+  background-color: #f4f7fb;
+}
