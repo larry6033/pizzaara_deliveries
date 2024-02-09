@@ -1,5 +1,5 @@
 /* footer */
-.footer-section{
+.footer__section{
     background-color: black;
     display:flex;
     justify-content: space-around;
@@ -17,7 +17,7 @@ ul h2{
     color:white;
 }
 
-.footer_btn{
+.footer__btn{
     background-color:#eea539;
     border:none;
     padding:1.55em;
@@ -26,14 +26,14 @@ ul h2{
 
 }
 
-.footer-input{
+.footer__input{
     padding:1.5em;
     margin-right: -0.5em;
     border-bottom-left-radius: 0.5em;
     border-top-left-radius: 0.5em;
 }
 
-.input-btn{
+.input__btn{
     border:none;
     box-sizing:border-box;
     background-color:black;
