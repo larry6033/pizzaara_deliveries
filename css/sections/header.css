@@ -1,6 +1,9 @@
 * {
   font-size: 40px;
   /* width: 100%; */
+  font-family: 'Kanit', sans-serif;
+  margin:0;
+  padding:0;
 }
 /* @media and (max-width=414px) {
   .list {
@@ -17,15 +20,16 @@
   height: 8vh;
 }
 
-.list ul {
+.nav__list ul {
   list-style-type: none;
-  display: flex;
+  color:black;
+  display: inline-flex;
   padding: 0 1em;
   gap: 2em;
 }
 
-.list ul li:hover {
-  background-color: #eea539;
+.nav__list ul li{
+  /* background-color: #eea539; */
   padding: 1em;
 }
 
@@ -47,10 +51,24 @@
 
 
 @media screen and (max-width:414px){
-  .list{
-    display: none;
-  }
-  .bar-icon{
-    display: block;
-  }
+.bar-icon{
+  display:block;
+margin-top: -0.6em;
+}
+
+.nav__list ul{
+  display:none;
+}
+
+.flex__container{
+  display:inline-flex;
+  margin-top: -1.5em;
+
+
+}
+
+.nav__right {
+  display:inline-flex;
+}
+
 }
