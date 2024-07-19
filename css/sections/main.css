@@ -16,7 +16,14 @@
 }
 
 
-ul li:hover {
+
+
+/* ul li:hover {
+  color: #eea539;
+  border-bottom: 2px solid #eea539;
+} */
+
+.active{
   color: #eea539;
   border-bottom: 2px solid #eea539;
 }
@@ -34,13 +41,16 @@ ul li:hover {
   justify-content: center;
   background-color: black;
   color: white;
-  padding: 2em 10em;
+  padding: 1em 3em;
   border: none;
   margin-top: -20px;
-  margin-left: 6em;
+  text-align: center; 
+  margin-left: 2.5em;
   /* align-items: center;
-  align-content: center;
-  text-align: center; */
+  
+  /* align-items: center;
+  align-content: center; */
+  
 }
 
 
@@ -56,24 +66,26 @@ ul li:hover {
 
 
 .main__content {
-  padding: 150px;
-  margin-top: -120px;
+  padding: 2em;
+  margin-top: -3em;
   background-color: #f4f7fb;
+  margin: 0 1em;
 }
 
 
 .image {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: -2em;
 }
 
 
 .btn__main {
   color: white;
   background-color: #eea539;
-  padding: 2em 10em;
-  margin: 0 45%;
-  margin-top: 10em;
+  padding:1em 3em ;
+  /* margin: 0 45%; */
+  margin-top: 2em;
   border-radius: 5px;
   border: none;
 }
@@ -128,10 +140,10 @@ margin:3em 0;
 
 }
 
-.hero__end{
+/* .hero__end{
   /* text-align: center; */
 
-}
+/* } */
 
 .hero__bottom2{
   background-color: #f4f7fb;
@@ -160,47 +172,35 @@ margin:3em 0;
 .sub__hero {
   display: flex;
   justify-content: space-between;
-  margin: 10em 0;
+  margin: 3em 0;
   background-color: white;
+
 }
 
-@media screen and (max-width:414px){
-  .div__menu{
-    font-size: 2em;
-  }
-  .main__h3{
+
+
+@media screen and (max-width: 414px) {
+.main__menu{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.main__menu ul li{
+  display:flex;
+  flex-direction: column;
     flex-wrap: wrap;
-    /* font-size: 1em; */
-  }
-  .pizza__image{
-    flex-wrap: wrap;
-    flex:1;
-  }
-  .view__more{
-   display: none;
-  }
-  .image__section{
-   display: none;
-  }
-  .icons__text{
-    /* flex:1; */
-    /* flex-wrap: wrap; */
-    display: none;
-  }
+flex:1;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bottom{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.why__us{
+  display:none;
+}
 
 
 

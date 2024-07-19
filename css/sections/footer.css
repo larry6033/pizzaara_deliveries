@@ -40,3 +40,21 @@ ul h2{
     border-radius: 0.5em;
     cursor: pointer;
 }
+
+@media screen and (max-width: 414px) {
+
+    .footer__section{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    }
+
+ .footer__input{
+    display:none;
+ }
+
+ .footer__btn{
+    display:none;
+ }
+
+}
